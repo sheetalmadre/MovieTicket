@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736857" _time="42643" date="12/06/2018" time="11:50:43"/>
+          <LastModified _date="736857" _time="43208" date="12/06/2018" time="12:00:08"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -165,7 +165,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="7" _last_test_id="7" id="1">
+          <FormEntry _last_isn="8" _last_test_id="8" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
@@ -229,24 +229,24 @@
                 <ControlName id="46" val="VUserPassword"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1" PDOD="128" _test_id="6" id="6">
+            <Control ISN_FATHER="1" PDOD="128" _test_id="8" id="8">
               <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
-                <X id="21" val="84"/>
+                <Model comp="-1" id="1" obj="5"/>
+                <X id="21" val="92"/>
                 <Y id="22" val="166"/>
-                <Width id="23" val="85"/>
+                <Width id="23" val="100"/>
                 <Height id="24" val="22"/>
-                <ControlName id="46" val="Button6"/>
-                <Format id="82" valUnicode="Submit"/>
+                <ControlName id="46" val="Button8"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="7" id="7">
-              <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
+              <PropertyList FLD_FLAGS="1" model="CTRL_WEB_CLIENT_BUTTON">
+                <Model comp="-1" id="1" obj="6"/>
                 <X id="21" val="215"/>
                 <Y id="22" val="166"/>
                 <Width id="23" val="88"/>
                 <Height id="24" val="22"/>
                 <ControlName id="46" val="Button7"/>
-                <Format id="82" valUnicode="Cancel"/>
               </PropertyList>
             </Control>
           </FormEntry>
