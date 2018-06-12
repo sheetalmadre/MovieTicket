@@ -490,12 +490,42 @@
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="30"/>
+        <GuiDisplay id="158">
+          <PropertyList model="CTRL_GUI0_COMBOBOX">
+            <ItemsList id="45" valUnicode="Comedy,Drama,Thriller,Adult,Suspense"/>
+          </PropertyList>
+        </GuiDisplay>
+        <GuiDisplayTable id="159">
+          <PropertyList model="CTRL_GUI0_COMBOBOX">
+            <ItemsList id="45" valUnicode="Comedy,Drama,Thriller,Adult,Suspense"/>
+          </PropertyList>
+        </GuiDisplayTable>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="30"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="MSMovieType"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="MSMovieType" PIC_U="30" Size="30" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <RichClient id="453">
+          <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+            <ItemsList id="45" valUnicode="Comedy,Drama,Thriller,Adult,Suspense"/>
+          </PropertyList>
+        </RichClient>
+        <RichClientTable id="454">
+          <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+            <ItemsList id="45" valUnicode="Comedy,Drama,Thriller,Adult,Suspense"/>
+          </PropertyList>
+        </RichClientTable>
+        <WebClient id="702">
+          <PropertyList model="CTRL_WEB_CLIENT_COMBOBOX">
+            <ItemsList id="45" valUnicode="Comedy,Drama,Thriller,Adult,Suspense"/>
+          </PropertyList>
+        </WebClient>
+        <WebClientTable id="703">
+          <PropertyList model="CTRL_WEB_CLIENT_COMBOBOX">
+            <ItemsList id="45" valUnicode="Comedy,Drama,Thriller,Adult,Suspense"/>
+          </PropertyList>
+        </WebClientTable>
       </PropertyList>
     </Column>
     <Column id="9" name="MSMovieStatus">
