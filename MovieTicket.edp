@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="MovieTicket"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{3F661B2F-7B1E-4B4A-9182-017BDD74A238}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="14000.00"/>
+  </_Project>
+
+</Application>
