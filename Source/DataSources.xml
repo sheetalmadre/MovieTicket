@@ -917,6 +917,26 @@
           <Column val="1"/>
           <Order val="A"/>
         </Segment>
+        <Segment>
+          <Size val="4"/>
+          <Column val="2"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="4"/>
+          <Column val="3"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="8"/>
+          <Column val="5"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="6"/>
+          <Column val="6"/>
+          <Order val="A"/>
+        </Segment>
       </Segments>
     </Index>
   </Indexes>

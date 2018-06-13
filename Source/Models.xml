@@ -4,7 +4,7 @@
   <Header>
     <Version val="14000.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="4"/>
+    <LastIsn val="6"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -43,6 +43,21 @@
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_DATE" id="1"/>
           <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="MSSubmit">
+        <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
+          <Format id="82" valUnicode="Submit"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="MSCancel">
+        <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
+          <Format id="82" valUnicode="Cancel"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="33"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
         </PropertyList>
       </Object>
     </Models>
