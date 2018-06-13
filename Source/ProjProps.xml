@@ -18,6 +18,14 @@
       <ExposeComment val="N"/>
       <ProjectName val="MovieTicket"/>
     </ProjectData>
+    <WebClientData>
+      <OutputFolder val=".\output"/>
+      <SourceImagesFolder val=".\images"/>
+      <Theme val="Native Exposed Functionality"/>
+      <AbsolutePosition val="Y"/>
+      <MultiLingualSupport val="N"/>
+      <BackupCurrent val="Y"/>
+    </WebClientData>
   </ProjectProperties>
 
 </Application>
