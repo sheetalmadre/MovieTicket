@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="m2" ISN_2="1" LastIsn="1" id="4">
+        <Header Description="SingUp" ISN_2="1" LastIsn="1" id="4">
           <Public val="SingUp"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736858" _time="52850" date="13/06/2018" time="14:40:50"/>
+          <LastModified _date="736863" _time="43551" date="18/06/2018" time="12:05:51"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -303,7 +303,7 @@
               <Height id="24" val="448"/>
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="m2"/>
+              <FormName id="311" valUnicode="SingUp"/>
             </PropertyList>
             <Control _test_id="12" id="12">
               <PropertyList model="CTRL_WEB_CLIENT_LABEL">
