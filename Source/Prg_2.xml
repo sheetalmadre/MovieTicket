@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736863" _time="42552" date="18/06/2018" time="11:49:12"/>
+          <LastModified _date="736863" _time="44920" date="18/06/2018" time="12:28:40"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -159,7 +159,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="3"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
@@ -173,7 +173,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -186,7 +186,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -199,7 +199,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="7"/>
+                  <_DitIndexForToolkit val="8"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -308,12 +308,24 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="10" _last_test_id="10" id="1">
+          <FormEntry _last_isn="11" _last_test_id="11" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
+              <Width id="23" val="1014"/>
+              <Height id="24" val="425"/>
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Login"/>
             </PropertyList>
+            <Control _test_id="11" id="11">
+              <PropertyList model="CTRL_WEB_CLIENT_IMAGE">
+                <X id="21" val="397"/>
+                <Y id="22" val="12"/>
+                <Width id="23" val="437"/>
+                <Height id="24" val="411"/>
+                <ControlName id="46" val="Image11"/>
+                <ImageFile id="88" val="movienight2.jpg"/>
+              </PropertyList>
+            </Control>
             <Control PDOD="128" _test_id="1" id="1">
               <PropertyList model="CTRL_WEB_CLIENT_GROUP">
                 <Text id="19" valUnicode="Login To Your Account"/>
