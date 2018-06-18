@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="NowShowing" ISN_2="1" LastIsn="1" id="54">
-          <Public val="S5"/>
+        <Header Description="CommingSoon" ISN_2="1" LastIsn="1" id="54">
+          <Public val="S6"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736863" _time="53848" date="18/06/2018" time="14:57:28"/>
+          <LastModified _date="736863" _time="54023" date="18/06/2018" time="15:00:23"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -168,7 +168,7 @@
               <Height id="24" val="812"/>
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="NowShowing"/>
+              <FormName id="311" valUnicode="CommingSoon"/>
             </PropertyList>
             <Control PDOD="128" _test_id="1" id="1">
               <PropertyList model="CTRL_WEB_CLIENT_GROUP">
@@ -187,7 +187,7 @@
                 <Width id="23" val="948"/>
                 <Height id="24" val="683"/>
                 <ControlName id="46" val="Image4"/>
-                <ImageFile id="88" val="NowShowing\Race3.jpg"/>
+                <ImageFile id="88" val="NowShowing\Parmanu.jpg"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="2" id="2">
@@ -222,13 +222,13 @@
             </Control>
           </FormEntry>
         </TaskForms>
-        <EVNT DESC="BackNSEvent" FORCE_EXIT="N" id="1">
+        <EVNT DESC="BackCSEvent" FORCE_EXIT="N" id="1">
           <Event>
             <EventType val="N"/>
             <PublicObject comp="-1"/>
           </Event>
         </EVNT>
-        <EVNT DESC="NextNSEvent" FORCE_EXIT="N" id="2">
+        <EVNT DESC="NextCSEvent" FORCE_EXIT="N" id="2">
           <Event>
             <EventType val="N"/>
             <PublicObject comp="-1"/>
