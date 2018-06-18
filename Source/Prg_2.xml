@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="m1" ISN_2="1" LastIsn="1" id="2">
+        <Header Description="Login" ISN_2="1" LastIsn="1" id="2">
           <Public val="Login"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736858" _time="50577" date="13/06/2018" time="14:02:57"/>
+          <LastModified _date="736863" _time="42552" date="18/06/2018" time="11:49:12"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -272,13 +272,47 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="6" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="2"/>
+            </Event>
+            <Expanded val="1"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="12">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="U"/>
+                    <PublicObject comp="-1"/>
+                  </Event>
+                  <TaskID comp="-1" obj="4"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <IsRoute val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="8" _last_test_id="8" id="1">
+          <FormEntry _last_isn="10" _last_test_id="10" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="m1"/>
+              <FormName id="311" valUnicode="Login"/>
             </PropertyList>
             <Control PDOD="128" _test_id="1" id="1">
               <PropertyList model="CTRL_WEB_CLIENT_GROUP">
@@ -364,6 +398,31 @@
                 <ControlName id="46" val="Button7"/>
               </PropertyList>
             </Control>
+            <Control PDOD="128" _test_id="10" id="10">
+              <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
+                <X id="21" val="172"/>
+                <Y id="22" val="259"/>
+                <Width id="23" val="48"/>
+                <Height id="24" val="22"/>
+                <ControlName id="46" val="Button10"/>
+                <Format id="82" valUnicode="Sign Up"/>
+                <ButtonStyle id="96" val="3"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="2"/>
+                </RaiseEvent>
+              </PropertyList>
+            </Control>
+            <Control _test_id="9" id="9">
+              <PropertyList model="CTRL_WEB_CLIENT_LABEL">
+                <Text id="19" valUnicode="Don't have an account?"/>
+                <X id="21" val="46"/>
+                <Y id="22" val="261"/>
+                <Width id="23" val="117"/>
+                <Height id="24" val="15"/>
+                <ControlName id="46" val="Label9"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
         <Expressions>
@@ -385,6 +444,12 @@
           </Expression>
         </Expressions>
         <EVNT DESC="Submit" FORCE_EXIT="N" id="1">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="SignUp" FORCE_EXIT="N" id="2">
           <Event>
             <EventType val="N"/>
             <PublicObject comp="-1"/>
