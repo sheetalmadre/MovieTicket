@@ -21,10 +21,10 @@
     <WebClientData>
       <OutputFolder val=".\output"/>
       <SourceImagesFolder val=".\images"/>
-      <Theme val="Native Exposed Functionality"/>
-      <AbsolutePosition val="Y"/>
+      <Theme val="Material Design Exposed Functionality"/>
+      <GenerateMetadataOnly val="N"/>
       <MultiLingualSupport val="N"/>
-      <BackupCurrent val="Y"/>
+      <StartupProgramISN val="28"/>
     </WebClientData>
   </ProjectProperties>
 
