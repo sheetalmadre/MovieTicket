@@ -28,10 +28,21 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736857" _time="39065" date="12/06/2018" time="10:51:05"/>
+          <LastModified _date="736865" _time="42270" date="20/06/2018" time="11:44:30"/>
         </Header>
+        <ItemIsn val="1"/>
         <Resource>
-          <Columns/>
+          <Columns>
+            <Column id="1" name="VirtualImagePath">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="255"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
         </Resource>
         <Information>
           <Key>
@@ -102,6 +113,20 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="1" FlowIsn="1" id="1">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+            </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
@@ -123,6 +148,12 @@
             </PropertyList>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="Translate('MoviesPoster')"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
