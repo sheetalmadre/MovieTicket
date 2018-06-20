@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="SJAsajh" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="51">
+        <Header Description="SS" ISN_2="1" LastIsn="1" id="51">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -22,12 +22,13 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="O"/>
+          <TaskType val="W"/>
+          <Interactive val="Y"/>
           <External val="N"/>
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="736859" _time="43512" date="14/06/2018" time="12:05:12"/>
         </Header>
         <Resource>
           <Columns/>
@@ -71,7 +72,7 @@
             <AllowRange val="Y"/>
             <AllowIndexChange val="Y"/>
             <AllowSorting val="Y"/>
-            <AllowIOFiles val="Y"/>
+            <AllowIOFiles val="N"/>
             <RecordCycle val="Y"/>
             <AllowEvents val="Y"/>
             <AllowIndexOptimization val="Y"/>
@@ -114,9 +115,10 @@
         </TaskLogic>
         <TaskForms>
           <FormEntry id="1">
-            <PropertyList model="FORM_GUI0">
+            <PropertyList model="FORM_WEB_CLIENT">
+              <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="SJAsajh"/>
+              <FormName id="311" valUnicode="SS"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
