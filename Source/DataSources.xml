@@ -36,6 +36,8 @@
 
   <Position val="D"/>
 
+  <PositionIndex val="-2"/>
+
   <IndexesLastIsn val="1"/>
 
   <Columns>
@@ -195,6 +197,11 @@
         <Segment>
           <Size val="4"/>
           <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="30"/>
+          <Column val="9"/>
           <Order val="A"/>
         </Segment>
       </Segments>
