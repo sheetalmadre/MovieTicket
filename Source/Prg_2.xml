@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="46401" date="22/06/2018" time="12:53:21"/>
+          <LastModified _date="736867" _time="49976" date="22/06/2018" time="13:52:56"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -435,10 +435,30 @@
             </Event>
             <Expanded val="1"/>
             <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="30">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="I"/>
+                    <PublicObject comp="-1"/>
+                  </Event>
+                  <TaskID comp="-1" obj="5"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <IsRoute val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="11" _last_test_id="11" id="1">
+          <FormEntry _last_isn="12" _last_test_id="12" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
               <Width id="23" val="1014"/>
               <Height id="24" val="425"/>
@@ -539,6 +559,20 @@
                 <Height id="24" val="22"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="Button7"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" _test_id="12" id="12">
+              <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
+                <X id="21" val="146"/>
+                <Y id="22" val="209"/>
+                <Width id="23" val="88"/>
+                <Height id="24" val="22"/>
+                <ControlName id="46" val="Button12"/>
+                <Format id="82" valUnicode="ForgotPassword"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="3"/>
+                </RaiseEvent>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="10" id="10">
