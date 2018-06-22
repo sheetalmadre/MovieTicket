@@ -50,7 +50,7 @@
           <Format id="82" valUnicode="Submit"/>
         </PropertyList>
       </Object>
-      <Object id="6" name="MSCancel">
+      <Object id="6" name="MSReset">
         <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
           <Format id="82" valUnicode="Cancel"/>
           <RaiseEvent id="234">
