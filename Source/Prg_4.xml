@@ -27,9 +27,9 @@
           <Interactive val="Y"/>
           <External val="Y"/>
           <Offline val="N"/>
-          <FormType val="N"/>
+          <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="46733" date="22/06/2018" time="12:58:53"/>
+          <LastModified _date="736867" _time="49909" date="22/06/2018" time="13:51:49"/>
         </Header>
         <ItemIsn val="33"/>
         <Resource>
@@ -673,6 +673,7 @@
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="SingUp"/>
+              <WindowType id="358" val="12"/>
             </PropertyList>
             <Control _test_id="12" id="12">
               <PropertyList model="CTRL_WEB_CLIENT_LABEL">
