@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="50009" date="22/06/2018" time="13:53:29"/>
+          <LastModified _date="736867" _time="51185" date="22/06/2018" time="14:13:05"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -533,6 +533,7 @@
                 <Height id="24" val="20"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="VUserPassword"/>
+                <PasswordEdit id="85" val="Y"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="8" id="8">
@@ -565,7 +566,7 @@
               <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
                 <X id="21" val="146"/>
                 <Y id="22" val="209"/>
-                <Width id="23" val="88"/>
+                <Width id="23" val="86"/>
                 <Height id="24" val="22"/>
                 <ControlName id="46" val="Button12"/>
                 <Format id="82" valUnicode="ForgotPassword"/>
