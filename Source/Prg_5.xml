@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="49887" date="22/06/2018" time="13:51:27"/>
+          <LastModified _date="736867" _time="51250" date="22/06/2018" time="14:14:10"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -336,6 +336,7 @@
                 <Height id="24" val="20"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="VChangePassword"/>
+                <PasswordEdit id="85" val="Y"/>
               </PropertyList>
             </Control>
             <Control _test_id="9" id="9">
@@ -359,6 +360,7 @@
                 <Height id="24" val="20"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="VConfirmChangePassword"/>
+                <PasswordEdit id="85" val="Y"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="14" id="14">
