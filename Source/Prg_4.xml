@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="49909" date="22/06/2018" time="13:51:49"/>
+          <LastModified _date="736867" _time="51211" date="22/06/2018" time="14:13:31"/>
         </Header>
         <ItemIsn val="33"/>
         <Resource>
@@ -905,6 +905,7 @@
                 <Height id="24" val="20"/>
                 <Data FieldID="22" id="43"/>
                 <ControlName id="46" val="MSUserPassword"/>
+                <PasswordEdit id="85" val="Y"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="23" id="23">
