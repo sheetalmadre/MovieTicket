@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736866" _time="56981" date="21/06/2018" time="15:49:41"/>
+          <LastModified _date="736867" _time="51124" date="22/06/2018" time="14:12:04"/>
         </Header>
         <ItemIsn val="20"/>
         <Resource>
@@ -459,7 +459,7 @@
               <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
                 <Width id="23" val="65"/>
                 <ControlLayer id="25" val="1"/>
-                <ControlName id="46" val="Column41"/>
+                <ControlName id="46" val="SrNo"/>
                 <Sortable id="134" val="Y"/>
                 <ColumnTitle id="139" valUnicode="MSMovieId"/>
               </PropertyList>
