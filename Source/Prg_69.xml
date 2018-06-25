@@ -13,7 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Browse - MSMovieD" ISN_2="1" LastIsn="1" id="66">
+        <Header Description="Browse - MSMovieD" ISN_2="1" LastIsn="1" id="69">
+          <Public val="SSSS"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -22,13 +23,13 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="C"/>
+          <TaskType val="W"/>
           <Interactive val="Y"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="N"/>
-          <FormType val="M"/>
+          <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="58555" date="22/06/2018" time="16:15:55"/>
+          <LastModified _date="736867" _time="54583" date="22/06/2018" time="15:09:43"/>
         </Header>
         <ItemIsn val="13"/>
         <Resource>
@@ -83,7 +84,7 @@
             <AllowIndexChange val="Y"/>
             <AllowSorting val="Y"/>
             <AllowIOFiles val="N"/>
-            <TabbingCycle val="R"/>
+            <RecordCycle val="Y"/>
             <AllowEvents val="Y"/>
             <AllowIndexOptimization val="Y"/>
             <AllowLocationInQuery val="Y"/>
@@ -140,7 +141,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -153,7 +154,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -166,7 +167,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="8"/>
+                  <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -179,7 +180,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="10"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -192,7 +193,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="12"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -205,7 +206,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="8"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -218,7 +219,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="16"/>
+                  <_DitIndexForToolkit val="9"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -231,7 +232,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="26"/>
+                  <_DitIndexForToolkit val="10"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -244,7 +245,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="19"/>
+                  <_DitIndexForToolkit val="11"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -257,7 +258,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="21"/>
+                  <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -270,7 +271,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="23"/>
+                  <_DitIndexForToolkit val="13"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -283,7 +284,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="25"/>
+                  <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -294,322 +295,337 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="53" _last_test_id="53" id="1">
-            <PropertyList model="FORM_RICH_CLIENT">
-              <Model id="1"/>
+          <FormEntry _last_isn="27" _last_test_id="27" id="1">
+            <PropertyList model="FORM_WEB_CLIENT">
+              <Width id="23" val="6244"/>
+              <Height id="24" val="317"/>
+              <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Browse - MSMovieD"/>
+              <FormName id="311" valUnicode="Browse___MSMovieD"/>
             </PropertyList>
-            <Control _test_id="41" id="41">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieId:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="47"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_WEB_CLIENT_TABLE">
+                <X id="21" val="10"/>
+                <Y id="22" val="13"/>
+                <Width id="23" val="6216"/>
+                <Height id="24" val="296"/>
+                <ControlName id="46" val="Table1"/>
+                <TitleHeight id="79" val="20"/>
+                <RowHeight id="80" val="24"/>
+                <Elements id="81" val="13"/>
+                <_WindowWidth id="241" val="6216"/>
               </PropertyList>
             </Control>
-            <Control PDOD="1" _test_id="28" id="28">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" PDOD="1" _test_id="2" id="2">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="1"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="29"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="15"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="34"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="MSMovieId"/>
                 <TabOrder id="314" val="1"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="42" id="42">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieName:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="28"/>
-                <Width id="23" val="62"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="29" id="29">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" _test_id="3" id="3">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="2"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="28"/>
-                <Width id="23" val="173"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="73"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="214"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="MSMovieName"/>
                 <TabOrder id="314" val="2"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="43" id="43">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSCityID:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="48"/>
-                <Width id="23" val="39"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="1" _test_id="30" id="30">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" PDOD="1" _test_id="4" id="4">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="3"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="48"/>
-                <Width id="23" val="29"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="295"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="34"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="3"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="MSCityID"/>
                 <TabOrder id="314" val="3"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="44" id="44">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieImage:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="68"/>
-                <Width id="23" val="63"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="31" id="31">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" _test_id="5" id="5">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="4"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="68"/>
-                <Width id="23" val="2805"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="343"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="3504"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="4"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="MSMovieImage"/>
                 <TabOrder id="314" val="4"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="45" id="45">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieTrailor:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="88"/>
-                <Width id="23" val="63"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="32" id="32">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" _test_id="6" id="6">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="5"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="88"/>
-                <Width id="23" val="565"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="3855"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="704"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="5"/>
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="MSMovieTrailor"/>
                 <TabOrder id="314" val="5"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="46" id="46">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieDirector:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="108"/>
-                <Width id="23" val="70"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="33" id="33">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" _test_id="7" id="7">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="6"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="108"/>
-                <Width id="23" val="173"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="4568"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="214"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="6"/>
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="MSMovieDirector"/>
                 <TabOrder id="314" val="6"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="47" id="47">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieCast:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="128"/>
-                <Width id="23" val="57"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="34" id="34">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" _test_id="8" id="8">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="7"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="128"/>
-                <Width id="23" val="397"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="4790"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="494"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="7"/>
                 <Data FieldID="7" id="43"/>
                 <ControlName id="46" val="MSMovieCast"/>
                 <TabOrder id="314" val="7"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="48" id="48">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieMusic:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="148"/>
-                <Width id="23" val="62"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="35" id="35">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" _test_id="9" id="9">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="8"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="148"/>
-                <Width id="23" val="285"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="5293"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="354"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="8"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="MSMovieMusic"/>
                 <TabOrder id="314" val="8"/>
+                <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="49" id="49">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieType:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="168"/>
-                <Width id="23" val="59"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="50" id="50">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieStatus:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="188"/>
-                <Width id="23" val="64"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="37" id="37">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="10"/>
-                </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="188"/>
-                <Width id="23" val="173"/>
-                <Height id="24" val="12"/>
-                <Data FieldID="10" id="43"/>
-                <ControlName id="46" val="MSMovieStatus"/>
-                <TabOrder id="314" val="10"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="51" id="51">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSLanguageID:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="208"/>
-                <Width id="23" val="64"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="1" _test_id="38" id="38">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="11"/>
-                </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="208"/>
-                <Width id="23" val="29"/>
-                <Height id="24" val="12"/>
-                <Data FieldID="11" id="43"/>
-                <ControlName id="46" val="MSLanguageID"/>
-                <TabOrder id="314" val="11"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="52" id="52">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSMovieDate:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="228"/>
-                <Width id="23" val="58"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="39" id="39">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="12"/>
-                </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="228"/>
-                <Width id="23" val="62"/>
-                <Height id="24" val="12"/>
-                <Data FieldID="12" id="43"/>
-                <ControlName id="46" val="MSMovieDate"/>
-                <TabOrder id="314" val="12"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="53" id="53">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="MSEndDate:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="248"/>
-                <Width id="23" val="50"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="40" id="40">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="13"/>
-                </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="248"/>
-                <Width id="23" val="62"/>
-                <Height id="24" val="12"/>
-                <Data FieldID="13" id="43"/>
-                <ControlName id="46" val="MSEndDate"/>
-                <TabOrder id="314" val="13"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="36" id="36">
-              <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
+            <Control ISN_FATHER="1" PDOD="128" _test_id="14" id="14">
+              <PropertyList model="CTRL_WEB_CLIENT_COMBOBOX">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="9"/>
                 </Model>
-                <X id="21" val="78"/>
-                <Y id="22" val="168"/>
-                <Width id="23" val="60"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="5655"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="75"/>
+                <Height id="24" val="20"/>
+                <ControlLayer id="25" val="9"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="MSMovieType"/>
                 <TabOrder id="314" val="9"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" _test_id="10" id="10">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
+                  <Var FieldID="10"/>
+                </Model>
+                <X id="21" val="5739"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="214"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="10"/>
+                <Data FieldID="10" id="43"/>
+                <ControlName id="46" val="MSMovieStatus"/>
+                <TabOrder id="314" val="10"/>
+                <Border id="452"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="1" _test_id="11" id="11">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
+                  <Var FieldID="11"/>
+                </Model>
+                <X id="21" val="5961"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="34"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="11"/>
+                <Data FieldID="11" id="43"/>
+                <ControlName id="46" val="MSLanguageID"/>
+                <TabOrder id="314" val="11"/>
+                <Border id="452"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="12" id="12">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
+                  <Var FieldID="12"/>
+                </Model>
+                <X id="21" val="6040"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="76"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="12"/>
+                <Data FieldID="12" id="43"/>
+                <ControlName id="46" val="MSMovieDate"/>
+                <TabOrder id="314" val="12"/>
+                <Border id="452"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="13" id="13">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
+                  <Var FieldID="13"/>
+                </Model>
+                <X id="21" val="6125"/>
+                <Y id="22" val="37"/>
+                <Width id="23" val="76"/>
+                <Height id="24" val="16"/>
+                <ControlLayer id="25" val="13"/>
+                <Data FieldID="13" id="43"/>
+                <ControlName id="46" val="MSEndDate"/>
+                <TabOrder id="314" val="13"/>
+                <Border id="452"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="15" id="15">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="58"/>
+                <ControlLayer id="25" val="1"/>
+                <ControlName id="46" val="Column15"/>
+                <Sortable id="134" val="Y"/>
+                <ColumnTitle id="139" valUnicode="MSMovieId"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="16" id="16">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="223"/>
+                <ControlLayer id="25" val="2"/>
+                <ControlName id="46" val="Column16"/>
+                <ColumnTitle id="139" valUnicode="MSMovieName"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="17" id="17">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="48"/>
+                <ControlLayer id="25" val="3"/>
+                <ControlName id="46" val="Column17"/>
+                <ColumnTitle id="139" valUnicode="MSCityID"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="18" id="18">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="3513"/>
+                <ControlLayer id="25" val="4"/>
+                <ControlName id="46" val="Column18"/>
+                <ColumnTitle id="139" valUnicode="MSMovieImage"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="19" id="19">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="713"/>
+                <ControlLayer id="25" val="5"/>
+                <ControlName id="46" val="Column19"/>
+                <ColumnTitle id="139" valUnicode="MSMovieTrailor"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="20" id="20">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="223"/>
+                <ControlLayer id="25" val="6"/>
+                <ControlName id="46" val="Column20"/>
+                <ColumnTitle id="139" valUnicode="MSMovieDirector"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="21" id="21">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="503"/>
+                <ControlLayer id="25" val="7"/>
+                <ControlName id="46" val="Column21"/>
+                <ColumnTitle id="139" valUnicode="MSMovieCast"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="22" id="22">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="363"/>
+                <ControlLayer id="25" val="8"/>
+                <ControlName id="46" val="Column22"/>
+                <ColumnTitle id="139" valUnicode="MSMovieMusic"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="23" id="23">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="84"/>
+                <ControlLayer id="25" val="9"/>
+                <ControlName id="46" val="Column23"/>
+                <ColumnTitle id="139" valUnicode="MSMovieType"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="24" id="24">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="223"/>
+                <ControlLayer id="25" val="10"/>
+                <ControlName id="46" val="Column24"/>
+                <ColumnTitle id="139" valUnicode="MSMovieStatus"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="25" id="25">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="79"/>
+                <ControlLayer id="25" val="11"/>
+                <ControlName id="46" val="Column25"/>
+                <ColumnTitle id="139" valUnicode="MSLanguageID"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="26" id="26">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="85"/>
+                <ControlLayer id="25" val="12"/>
+                <ControlName id="46" val="Column26"/>
+                <ColumnTitle id="139" valUnicode="MSMovieDate"/>
+              </PropertyList>
+            </Control>
+            <Control ISN_FATHER="1" PDOD="128" _test_id="27" id="27">
+              <PropertyList model="CTRL_WEB_CLIENT_COLUMN">
+                <Width id="23" val="85"/>
+                <ControlLayer id="25" val="13"/>
+                <ControlName id="46" val="Column27"/>
+                <ColumnTitle id="139" valUnicode="MSEndDate"/>
               </PropertyList>
             </Control>
           </FormEntry>

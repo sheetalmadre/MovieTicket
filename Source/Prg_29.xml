@@ -30,10 +30,18 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736863" _time="69018" date="18/06/2018" time="19:10:18"/>
+          <LastModified _date="736866" _time="66250" date="21/06/2018" time="18:24:10"/>
         </Header>
-        <ItemIsn val="5"/>
+        <ItemIsn val="7"/>
         <Resource>
+          <DB id="1">
+            <DataObject comp="-1" obj="4"/>
+            <Access val="W"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="Y"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
           <Columns>
             <Column id="1" name="SelectLocation">
               <PropertyList model="FIELD">
@@ -78,9 +86,10 @@
         </Resource>
         <Information>
           <Key>
+            <Column val="1"/>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1"/>
+          <DB comp="-1" obj="4"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -148,7 +157,7 @@
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                <DATAVIEW_SRC FlowIsn="1" IDX="1" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -218,6 +227,12 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="8">
+                  <Type val="1"/>
+                  <Text val=" "/>
+                </Remark>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
