@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="CreateShowDetails" ISN_2="1" LastIsn="4" id="74">
-          <Public val="WC"/>
+          <Public val="CreateShow"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736870" _time="59396" date="25/06/2018" time="16:29:56"/>
+          <LastModified _date="736870" _time="59605" date="25/06/2018" time="16:33:25"/>
         </Header>
         <ItemIsn val="16"/>
         <Resource>
@@ -850,7 +850,7 @@
                     <EventType val="U"/>
                     <PublicObject comp="-1"/>
                   </Event>
-                  <TaskID comp="-1" obj="69"/>
+                  <TaskID comp="-1" obj="75"/>
                   <Lock val="N"/>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
@@ -1508,7 +1508,7 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="CreateFirstTimeRecords" ISN_2="2" id="74">
+          <Header Description="CreateFirstTimeRecords" ISN_2="2" LastIsn="4" id="74">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2064,7 +2064,7 @@
           </Expressions>
         </Task>
         <Task MainProgram="N">
-          <Header Description="CheckTimeAlreadyAllotted" ISN_2="3" id="74">
+          <Header Description="CheckTimeAlreadyAllotted" ISN_2="3" LastIsn="4" id="74">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -2779,7 +2779,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="10" id="3"/>
         </Task>
         <Task MainProgram="N">
-          <Header Description="UpdateMovieIDForCreatedRecords" ISN_2="4" id="74">
+          <Header Description="UpdateMovieIDForCreatedRecords" ISN_2="4" LastIsn="4" id="74">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
