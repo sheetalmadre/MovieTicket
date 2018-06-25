@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="ChkMSShowDetails" ISN_2="1" LastIsn="1" id="75">
-          <Public val="MSDetails"/>
+        <Header Description="ViewMSShowDetails" ISN_2="1" LastIsn="1" id="75">
+          <Public val="ViewDetails"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736870" _time="59290" date="25/06/2018" time="16:28:10"/>
+          <LastModified _date="736870" _time="59596" date="25/06/2018" time="16:33:16"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
