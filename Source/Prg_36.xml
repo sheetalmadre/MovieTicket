@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736866" _time="57736" date="21/06/2018" time="16:02:16"/>
+          <LastModified _date="736867" _time="65550" date="22/06/2018" time="18:12:30"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -184,9 +184,6 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <INT_DIT_INFO>
-                    <v>18</v>
-                  </INT_DIT_INFO>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -199,6 +196,9 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <INT_DIT_INFO>
+                    <v>18</v>
+                  </INT_DIT_INFO>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -326,12 +326,13 @@
             </Control>
             <Control _test_id="18" id="18">
               <PropertyList model="CTRL_WEB_CLIENT_LABEL">
-                <Text Exp="2" id="19"/>
+                <Text Exp="5" id="19"/>
                 <X id="21" val="102"/>
                 <Y id="22" val="51"/>
                 <Width id="23" val="23"/>
                 <Height id="24" val="15"/>
                 <ControlName id="46" val="Label18"/>
+                <Visible Exp="6" id="61"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="13" id="13">
@@ -389,6 +390,18 @@
           <Expression id="3">
             <ExpSyntax val="Trim({0,11})"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="4">
+            <ExpSyntax val="'http://localhost/PaniBani.mp4'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="5">
+            <ExpSyntax val="Trim({32768,1})&amp;Trim({0,4})"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="'FALSE'LOG"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
         <VarRangeInfo Mode="E" VarRangeVeeIsn="9" id="1"/>
