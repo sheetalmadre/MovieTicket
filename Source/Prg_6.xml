@@ -27,9 +27,9 @@
           <Interactive val="Y"/>
           <External val="Y"/>
           <Offline val="N"/>
-          <FormType val="M"/>
+          <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736871" _time="44233" date="26/06/2018" time="12:17:13"/>
+          <LastModified _date="736871" _time="52408" date="26/06/2018" time="14:33:28"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -178,7 +178,7 @@
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="DashboardAdmin"/>
-              <WindowType id="358" val="12"/>
+              <WindowType id="358" val="1"/>
             </PropertyList>
             <Control PDOD="128" _test_id="1" id="1">
               <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
