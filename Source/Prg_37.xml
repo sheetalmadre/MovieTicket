@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736866" _time="68025" date="21/06/2018" time="18:53:45"/>
+          <LastModified _date="736871" _time="65612" date="26/06/2018" time="18:13:32"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -160,9 +160,6 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <INT_DIT_INFO>
-                    <v>2</v>
-                  </INT_DIT_INFO>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -195,134 +192,34 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="3" propagate="78">
-            <Level val="H"/>
-            <Type val="U"/>
-            <Scope val="S"/>
-            <EngineDirective val="S"/>
-            <ShowMessage val="Y"/>
-            <Condition val="89"/>
-            <Event>
-              <EventType val="S"/>
-              <KeyCombinationID val="61"/>
-              <PublicObject comp="-1"/>
-            </Event>
-            <Expanded val="1"/>
-            <ExecuteOn_ val="O"/>
-            <LogicLines>
-              <LogicLine>
-                <BLOCK EndBlock="11" EndBlockSegment="7" FlowIsn="6" Type="I">
-                  <Condition Exp="2"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="9">
-                  <FieldID val="3"/>
-                  <WithValue val="3"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="26">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="17">
-                  <FieldID val="4"/>
-                  <WithValue val="5"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="27">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <BLOCK EndBlock="11" EndBlockSegment="11" FlowIsn="7" Type="E">
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <Update FlowIsn="12">
-                  <FieldID val="4"/>
-                  <WithValue val="4"/>
-                  <Incremental val="N"/>
-                  <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </Update>
-              </LogicLine>
-              <LogicLine>
-                <END_BLK FlowIsn="11"/>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="5">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-            </LogicLines>
-          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="3" _last_test_id="3" id="1">
+          <FormEntry _last_isn="14" _last_test_id="14" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
-              <Width id="23" val="766"/>
-              <Height id="24" val="610"/>
+              <Width id="23" val="1185"/>
+              <Height id="24" val="807"/>
               <FormUnits id="33" val="4"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="TestImage"/>
             </PropertyList>
-            <Control PDOD="128" _test_id="1" id="1">
+            <Control PDOD="128" _test_id="12" id="12">
               <PropertyList model="CTRL_WEB_CLIENT_GROUP">
                 <Text id="19" valUnicode="Group1"/>
-                <X id="21" val="54"/>
-                <Y id="22" val="34"/>
-                <Width id="23" val="554"/>
-                <Height id="24" val="484"/>
-                <ControlName id="46" val="Group1"/>
+                <X id="21" val="27"/>
+                <Y id="22" val="50"/>
+                <Width id="23" val="921"/>
+                <Height id="24" val="688"/>
+                <ControlName id="46" val="Group12"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1" _test_id="2" id="2">
-              <PropertyList model="CTRL_WEB_CLIENT_IMAGE">
-                <X id="21" val="117"/>
-                <Y id="22" val="90"/>
-                <Width id="23" val="403"/>
-                <Height id="24" val="428"/>
-                <Data Exp="1" id="43"/>
-                <ControlName id="46" val="Image2"/>
-                <Attribute id="83" val="85"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="3" id="3">
-              <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
-                <X id="21" val="671"/>
-                <Y id="22" val="168"/>
-                <Width id="23" val="41"/>
-                <Height id="24" val="22"/>
-                <ControlName id="46" val="Button3"/>
-                <RaiseEvent id="234">
-                  <EventType val="S"/>
-                  <KeyCombinationID val="61"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
+            <Control PDOD="128" _test_id="13" id="13">
+              <PropertyList model="CTRL_WEB_CLIENT_SUBFORM">
+                <X id="21" val="243"/>
+                <Y id="22" val="92"/>
+                <Width id="23" val="526"/>
+                <Height id="24" val="192"/>
+                <ControlName id="46" val="Subform13"/>
+                <TaskNumber comp="-1" id="183" obj="2"/>
               </PropertyList>
             </Control>
           </FormEntry>
