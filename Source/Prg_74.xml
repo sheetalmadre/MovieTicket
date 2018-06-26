@@ -22,12 +22,13 @@
             <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
-          <TaskType val="O"/>
+          <TaskType val="C"/>
+          <Interactive val="Y"/>
           <External val="N"/>
           <Offline val="N"/>
-          <FormType val="N"/>
+          <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736870" _time="38177" date="25/06/2018" time="10:36:17"/>
+          <LastModified _date="736870" _time="38300" date="25/06/2018" time="10:38:20"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -68,7 +69,7 @@
             <TransactionMode val="D"/>
             <TransactionBegin val="P"/>
             <PreloadView val="N"/>
-            <AllowEmptyDataview val="Y"/>
+            <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>
           </TaskProperties>
           <SIDE_WIN>
@@ -81,8 +82,8 @@
             <AllowRange val="Y"/>
             <AllowIndexChange val="Y"/>
             <AllowSorting val="Y"/>
-            <AllowIOFiles val="Y"/>
-            <RecordCycle val="Y"/>
+            <AllowIOFiles val="N"/>
+            <TabbingCycle val="R"/>
             <AllowEvents val="Y"/>
             <AllowIndexOptimization val="Y"/>
             <AllowLocationInQuery val="Y"/>
@@ -111,6 +112,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
                 <DATAVIEW_SRC FlowIsn="4" IDX="1" Type="M">
@@ -150,29 +152,28 @@
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="5" _last_test_id="5" id="1">
-            <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
+            <PropertyList model="FORM_RICH_CLIENT">
               <Width id="23" val="275"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Browse - MSLanguage"/>
             </PropertyList>
             <Control _test_id="1" id="1">
-              <PropertyList model="CTRL_GUI0_TABLE">
+              <PropertyList model="CTRL_RICH_CLIENT_TABLE">
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="8"/>
                 <Y id="22" val="8"/>
                 <Width id="23" val="253"/>
                 <Height id="24" val="182"/>
-                <TitleHeight id="79" val="12"/>
+                <_TitleHeight id="79" val="12"/>
                 <RowHeight id="80" val="13"/>
                 <Elements id="81" val="2"/>
                 <_WindowWidth id="241" val="253"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="1" _test_id="2" id="2">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT_TBL" id="1">
+              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="1"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
@@ -183,14 +184,14 @@
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="MSLanuageID"/>
-                <Style id="63" val="1"/>
+                <_Style id="63" val="1"/>
                 <TabOrder id="314" val="1"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="3" id="3">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT_TBL" id="1">
+              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT_TBL" id="1">
                   <Var FieldID="2"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
@@ -201,21 +202,21 @@
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="MSLanguageName"/>
-                <Style id="63" val="1"/>
+                <_Style id="63" val="1"/>
                 <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="4" id="4">
-              <PropertyList model="CTRL_GUI0_COLUMN">
+              <PropertyList model="CTRL_RICH_CLIENT_COLUMN">
                 <Width id="23" val="58"/>
                 <ControlLayer id="25" val="1"/>
-                <Sortable id="134" val="Y"/>
+                <_Sortable id="134" val="Y"/>
                 <ColumnTitle id="139" valUnicode="MSLanuageID"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="5">
-              <PropertyList model="CTRL_GUI0_COLUMN">
+              <PropertyList model="CTRL_RICH_CLIENT_COLUMN">
                 <Width id="23" val="178"/>
                 <ControlLayer id="25" val="2"/>
                 <ColumnTitle id="139" valUnicode="MSLanguageName"/>
