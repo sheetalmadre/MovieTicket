@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="55164" date="22/06/2018" time="15:19:24"/>
+          <LastModified _date="736871" _time="43009" date="26/06/2018" time="11:56:49"/>
         </Header>
         <ItemIsn val="14"/>
         <Resource>
@@ -694,11 +694,13 @@
             </Event>
             <TXT val="L_Name"/>
             <Expanded val="1"/>
+            <Disabled val="1"/>
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="37" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Enter City" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
+                  <Disabled val="1"/>
                   <Condition Exp="12"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -906,7 +908,7 @@
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="AddLanguageNEW" ISN_2="2" id="78">
+          <Header Description="AddLanguageNEW" ISN_2="2" LastIsn="2" id="78">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
