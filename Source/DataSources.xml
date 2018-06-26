@@ -37,6 +37,8 @@
 
   <Position val="D"/>
 
+  <PositionIndex val="-2"/>
+
   <IndexesLastIsn val="1"/>
 
   <Columns>
@@ -196,6 +198,11 @@
         <Segment>
           <Size val="4"/>
           <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="30"/>
+          <Column val="9"/>
           <Order val="A"/>
         </Segment>
       </Segments>
@@ -817,20 +824,11 @@
 
   <Position val="D"/>
 
+  <PositionIndex val="-2"/>
+
   <IndexesLastIsn val="1"/>
 
   <Columns>
-    <Column id="1" name="MSShowID">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="MSShowID"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="MSShowID" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-      </PropertyList>
-    </Column>
     <Column id="2" name="MSTheatreID">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
@@ -878,12 +876,13 @@
     <Column id="6" name="MSShowTimings">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_TIME" id="1"/>
+        <Picture id="157" valUnicode="HH:MM PM"/>
         <StoredAs id="173" val="24"/>
         <Size id="174" val="6"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="MSShowTimings"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="MSShowTimings" PIC_U="HH:MM:SS" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+        <_FieldPhysical Name="MSShowTimings" PIC_U="HH:MM PM" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
@@ -915,17 +914,17 @@
       <Segments>
         <Segment>
           <Size val="4"/>
-          <Column val="1"/>
-          <Order val="A"/>
-        </Segment>
-        <Segment>
-          <Size val="4"/>
           <Column val="2"/>
           <Order val="A"/>
         </Segment>
         <Segment>
           <Size val="4"/>
           <Column val="3"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="4"/>
+          <Column val="4"/>
           <Order val="A"/>
         </Segment>
         <Segment>
@@ -942,34 +941,7 @@
     </Index>
   </Indexes>
 
-  <ForeignKeys>
-    <Key name="MSShowDetails1">
-      <Create val="Y"/>
-      <ReferencedTable comp="-1" obj="6"/>
-      <PrimaryKey val="3"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
-          <Column val="2"/>
-        </Segment>
-        <Segment>
-          <Size val="4"/>
-          <Column val="3"/>
-        </Segment>
-      </Segments>
-    </Key>
-    <Key name="MSShowDetails2">
-      <Create val="Y"/>
-      <ReferencedTable comp="-1" obj="4"/>
-      <PrimaryKey val="1"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
-          <Column val="4"/>
-        </Segment>
-      </Segments>
-    </Key>
-  </ForeignKeys>
+  <ForeignKeys/>
 
   <WebS/>
 
@@ -1102,19 +1074,7 @@
     </Index>
   </Indexes>
 
-  <ForeignKeys>
-    <Key name="F1MSBookingMaster1">
-      <Create val="Y"/>
-      <ReferencedTable comp="-1" obj="7"/>
-      <PrimaryKey val="1"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
-          <Column val="3"/>
-        </Segment>
-      </Segments>
-    </Key>
-  </ForeignKeys>
+  <ForeignKeys/>
 
   <WebS/>
 
