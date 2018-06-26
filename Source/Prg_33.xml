@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736863" _time="53848" date="18/06/2018" time="14:57:28"/>
+          <LastModified _date="736871" _time="65056" date="26/06/2018" time="18:04:16"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -138,7 +138,6 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -151,7 +150,6 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -162,7 +160,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="4" _last_test_id="4" id="1">
+          <FormEntry _last_isn="6" _last_test_id="6" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
               <Width id="23" val="1241"/>
               <Height id="24" val="812"/>
@@ -180,14 +178,24 @@
                 <ControlName id="46" val="Group1"/>
               </PropertyList>
             </Control>
+            <Control ISN_FATHER="1" _test_id="5" id="5">
+              <PropertyList model="CTRL_WEB_CLIENT_LABEL">
+                <Text id="19" valUnicode="NowShowing"/>
+                <X id="21" val="45"/>
+                <Y id="22" val="29"/>
+                <Width id="23" val="65"/>
+                <Height id="24" val="15"/>
+                <ControlName id="46" val="Label5"/>
+              </PropertyList>
+            </Control>
             <Control ISN_FATHER="1" _test_id="4" id="4">
               <PropertyList model="CTRL_WEB_CLIENT_IMAGE">
                 <X id="21" val="59"/>
-                <Y id="22" val="38"/>
+                <Y id="22" val="51"/>
                 <Width id="23" val="948"/>
                 <Height id="24" val="683"/>
                 <ControlName id="46" val="Image4"/>
-                <ImageFile id="88" val="NowShowing\Race3.jpg"/>
+                <ImageFile id="88" val="Parmanu.jpg"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="2" id="2">
@@ -196,24 +204,28 @@
                 <Y id="22" val="345"/>
                 <Width id="23" val="38"/>
                 <Height id="24" val="22"/>
-                <Data FieldID="2" id="43"/>
+                <Data id="43"/>
                 <ControlName id="46" val="Button2"/>
-                <Format id="82" valUnicode="Back"/>
+                <Format id="82" valUnicode="B"/>
+                <ImageFile id="88" val="Backword.jpg"/>
+                <ButtonStyle id="96" val="2"/>
                 <RaiseEvent id="234">
                   <EventType val="U"/>
                   <PublicObject comp="-1" obj="1"/>
                 </RaiseEvent>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1" PDOD="128" _test_id="3" id="3">
+            <Control ISN_FATHER="1" _test_id="3" id="3">
               <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
                 <X id="21" val="1024"/>
                 <Y id="22" val="345"/>
                 <Width id="23" val="41"/>
                 <Height id="24" val="22"/>
-                <Data FieldID="1" id="43"/>
+                <Data id="43"/>
                 <ControlName id="46" val="Button3"/>
-                <Format id="82" valUnicode="Next"/>
+                <Format id="82" valUnicode="F"/>
+                <ImageFile id="88" val="forwaard.jpg"/>
+                <ButtonStyle id="96" val="2"/>
                 <RaiseEvent id="234">
                   <EventType val="U"/>
                   <PublicObject comp="-1" obj="2"/>
