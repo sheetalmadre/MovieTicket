@@ -14,6 +14,8 @@
     <Programs>
       <Program id="1"/>
       <Program id="38"/>
+      <Program id="81"/>
+      <Program id="82"/>
       <Program id="39"/>
       <Program id="40"/>
       <Program id="41"/>
@@ -68,8 +70,6 @@
       <Program id="74"/>
       <Program id="75"/>
       <Program id="80"/>
-      <Program id="81"/>
-      <Program id="82"/>
     </Programs>
   </ProgramsRepositoryOutLine>
 
