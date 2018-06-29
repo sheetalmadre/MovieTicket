@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736867" _time="65550" date="22/06/2018" time="18:12:30"/>
+          <LastModified _date="736874" _time="55869" date="29/06/2018" time="15:31:09"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -283,6 +283,31 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="301"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="7" FlowIsn="15" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="22" _last_test_id="22" id="1">
@@ -402,6 +427,10 @@
           <Expression id="6">
             <ExpSyntax val="'FALSE'LOG"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="7">
+            <ExpSyntax val="Trim({32768,1})&amp;Trim({0,4})"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <VarRangeInfo Mode="E" VarRangeVeeIsn="9" id="1"/>
