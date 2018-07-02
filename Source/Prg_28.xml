@@ -29,12 +29,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736859" _time="69049" date="14/06/2018" time="19:10:49"/>
+          <LastModified _date="736871" _time="44701" date="26/06/2018" time="12:25:01"/>
         </Header>
-        <ItemIsn val="6"/>
+        <ItemIsn val="7"/>
         <Resource>
           <Columns>
-            <Column id="1" name="Alpha1">
+            <Column id="1" name="BHome">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="12"/>
@@ -43,7 +43,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="2" name="Alpha2">
+            <Column id="2" name="BAboutUs">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="12"/>
@@ -52,7 +52,16 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="4" name="Alpha3">
+            <Column id="4" name="BContactUs">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="12"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="12"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="BLogin">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="12"/>
@@ -198,6 +207,19 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="7" FlowIsn="14" id="7">
+                  <Column val="7"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="3" propagate="89">
@@ -293,11 +315,29 @@
                   <Direction val="C"/>
                 </CallTask>
               </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="20">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="U"/>
+                    <PublicObject comp="-1"/>
+                  </Event>
+                  <TaskID comp="-1" obj="2"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <IsRoute val="Y"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="9" _last_test_id="9" id="1">
+          <FormEntry _last_isn="10" _last_test_id="10" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
               <Width id="23" val="1292"/>
               <Height id="24" val="834"/>
@@ -386,6 +426,33 @@
                 </RaiseEvent>
               </PropertyList>
             </Control>
+            <Control PDOD="128" _test_id="10" id="10">
+              <PropertyList model="CTRL_WEB_CLIENT_BUTTON">
+                <X id="21" val="334"/>
+                <Y id="22" val="28"/>
+                <Width id="23" val="65"/>
+                <Height id="24" val="22"/>
+                <Data FieldID="7" id="43"/>
+                <ControlName id="46" val="Button10"/>
+                <Format id="82" valUnicode="Login"/>
+                <Arguments id="126">
+                  <Arguments>
+                    <Argument>
+                      <Expression val="4"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Skip val="Y"/>
+                    </Argument>
+                  </Arguments>
+                </Arguments>
+                <RaiseEvent id="234">
+                  <EventType val="I"/>
+                  <InternalEventID val="594"/>
+                  <PublicObject comp="-1"/>
+                </RaiseEvent>
+              </PropertyList>
+            </Control>
             <Control PDOD="128" _test_id="9" id="9">
               <PropertyList model="CTRL_WEB_CLIENT_SUBFORM">
                 <X id="21" val="32"/>
@@ -413,6 +480,10 @@
           </Expression>
           <Expression id="3">
             <ExpSyntax val="'C'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="4">
+            <ExpSyntax val="'Login'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
